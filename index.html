@@ -12,7 +12,11 @@
 
     <header>
 
+        
+        
+        <div class="logo_capçalera"> 
         <nav>
+                <img src="img/euphoria.png" alt="Primer pla Zendaya" width="20%">
             <ul class="menu_principal">
                 <li><a href="enllaços.html" class="enllaços"><strong>ENLLAÇOS</strong></a></li>
                 <li><a href="personatges.html" class="personatges"><strong>PERSONATGES</strong></a></li>
@@ -21,16 +25,22 @@
                 <li><a href="index.html" class="inici"><strong>INICI</strong></a></li>
             </ul>
         </nav>
+    </div>
 
     </header>
     
 
     <main>
     <!-- imatge principal -->
-            <div class="contenedor">
-                <img src="img/zendaya_primer_pla.jpg" alt="Primer pla Zendaya" width="100%"/>
+    
+        <div class="contenedor">
+            <picture>
                 <div class="titol_euphoria">Euphoria</div>
-            </div>
+                <source media="(max-width: 799px)" srcset="img/zendaya_primer_pla_copia.jpg">
+                <source media="(min-width: 800px)" srcset="img/zendaya_primer_pla.jpg" width="100%">
+                <img src="img/zendaya_primer_pla.jpg" alt="Primer pla Zendaya">
+            </picture> 
+        </div>
 
             <div id="descripcio_inici_">
                 <p>
@@ -44,15 +54,32 @@
                     i inclou els productors executius Ravi Nandan, Kevin Turen, Hadas Mozes Lichtenstein, Tmira Yardeni, Mirit Toovi, Yoram Mokadi i Gary Lennon. Ron Leshem i 
                     Daphna Levin, <br>que van crear la sèrie israeliana.</p>
 
+                    <div class="centrar">
+                        <div class="animacio1">
+                            <div class="cercle"></div>
+                            <div class="cercle"></div>
+                            <div class="cercle"></div>
+                            <div class="sombra"></div>
+                            <div class="sombra"></div>
+                            <div class="sombra"></div>
+                        </div>
+                    </div>
+
                 
             </div>
+
+
+
     </main>
 
     <footer>
+        <div class="footer">
+            <div><img src="img/Euphoria_footer.png" alt="Primer pla Zendaya" width="20%">
 
         <p>2023 © Fiona París López
         
-        <br>Per a l'assignatura Eines <abbr title="Hypertext Markup Language">HTML</abbr> i <abbr title="Cascade Style Sheet">CSS</abbr></p>
+        <br>Per a l'assignatura Eines <abbr title="Hypertext Markup Language">HTML</abbr> i <abbr title="Cascade Style Sheet">CSS</abbr></p></div>
+        
 
 
     </footer>
